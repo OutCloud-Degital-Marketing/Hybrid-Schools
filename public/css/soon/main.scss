@@ -1,0 +1,100 @@
+*, *::after, *::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	// outline: 1px solid red;
+}
+
+:root {
+	--clr-background-dark: rgba(0, 0, 0, .9);
+	--clr-background-light: #C4C4C4;
+	
+	--clr-font-dark: #FFF;
+	--clr-font-light: #2B2B2B;
+}
+
+body {
+	background: #00021D;
+	display: grid;
+	place-items: center;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.flex-cse {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.container, .alt {
+	border-radius: 10px;
+}
+
+.container {
+	background-color: var(--clr-background-light);
+	color: var(--clr-font-dark);
+	padding: 32px;
+}
+
+.alt {
+	background-color: var(--clr-background-dark);
+	color: var(--clr-font-dark);
+	min-height: 57vh;
+}
+
+.alt-left {
+	background-color: var(--clr-background-light);
+	color: var(--clr-font-light);
+	width: 40vw;
+	padding-right: 24px;
+
+	ul {
+		list-style:disc;
+		list-style-position: outside;
+		padding-left:32px;
+
+		li {
+			margin: 12px 0;
+			font-weight: 900;
+		}
+	}
+}
+
+.alt-right {
+	// justify-content: none;
+	flex-direction: column;
+	// padding: 12px;
+	width: 20vw;
+
+	.banner img {
+		width: 17vw;
+	}
+
+	.auth0-container {
+		height: 7.5vh;
+		width: 95%;
+		background-color: var(--clr-background-light);
+		border-radius: 5px;
+	}
+
+	hr {
+		width: 98%;
+		// height: 1px;
+		background-color: var(--clr-background-light);
+	}
+
+	.fg-container {
+		flex-direction: column;
+
+		span {
+			font-weight: 999;
+			font-size: 1em;
+
+			&.fgl-text {
+				font-size: calc(100% * 4);
+			} 
+			
+		}
+	}
+}

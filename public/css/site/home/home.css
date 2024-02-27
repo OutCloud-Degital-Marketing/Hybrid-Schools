@@ -1,0 +1,161 @@
+#home .first-block {
+  padding: 3rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#home .first-block .left {
+  margin: 2rem 0;
+  color: #fff;
+  max-width: 16rem;
+}
+#home .first-block .left h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+#home .first-block .left h3 {
+  margin: 1.5rem 2rem 0.5rem;
+  color: #FFA500;
+}
+#home .first-block .left p {
+  margin: 1rem 0;
+  font-size: var(--fs-universal);
+}
+#home .first-block .left button {
+  margin: 1rem 0;
+}
+#home .first-block .right {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 62rem;
+}
+#home .first-block .right .block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  aspect-ratio: 320/220;
+  max-width: 15.5rem;
+  margin: 1rem;
+  padding: 1rem 2rem 2rem;
+}
+#home .first-block .right .block p {
+  text-align: center;
+  color: #fff;
+  font-size: 0.75rem;
+}
+#home .first-block .right .block.grey {
+  background-color: #434242;
+}
+#home .first-block .right .block.blur {
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+#home .first-block .right .block.red {
+  background-color: var(--clr-primary);
+}
+#home .first-block .right .block.shadowed {
+  box-shadow: var(--bottom-box-shadow-2);
+}
+#home .first-block .right .block.rect {
+  aspect-ratio: 344/220;
+  max-width: 19.5rem;
+}
+#home .first-block .right .prep-block {
+  padding: 2rem 0;
+}
+#home .first-block .right .prep-block .div-header .h-top {
+  color: #fff;
+  line-height: 0.99;
+  font-family: "Sharon - Personal Use", sans-serif;
+}
+#home .first-block .right .prep-block .div-header .line {
+  width: 105%;
+}
+#home .first-block .right .prep-block p {
+  font-weight: 300;
+}
+#home .first-block .right .info-block .img-ctn {
+  margin: 0.75rem 0 0.25rem;
+  width: 8rem;
+}
+#home .first-block .right .info-block .h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  font-family: "Sharon - Personal Use", sans-serif;
+}
+@media (min-width: 500px) and (max-width: 1023) {
+  #home .first-block .right .info-block {
+    width: 17.5rem;
+  }
+}
+#home .first-block .right .rect {
+  margin: 1.5rem -1rem 2rem;
+  padding: 1rem 1.5rem 1rem;
+}
+#home .first-block .right .rect p {
+  font-size: 1.25rem;
+  margin: 1rem 0 2rem;
+  font-family: "Sharon - Personal Use", sans-serif;
+}
+@media screen and (min-width: 1024px) {
+  #home .first-block .right {
+    padding: 5rem 1rem;
+  }
+  #home .first-block .right .banner {
+    height: 75%;
+  }
+  #home .first-block .right .block {
+    aspect-ratio: 438/381;
+    justify-content: center;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem 1.5rem 1rem;
+  }
+  #home .first-block .right .block p {
+    text-align: left;
+    color: #fff;
+    font-size: var(--fs-universal);
+    font-weight: 300;
+  }
+  #home .first-block .right .prep-block {
+    width: 20rem;
+    aspect-ratio: 690/382;
+    padding: 2rem 0;
+  }
+  #home .first-block .right .prep-block p {
+    font-size: var(--fs-universal);
+    font-weight: 300;
+  }
+  #home .first-block .right .info-block {
+    width: 17.5rem;
+  }
+  #home .first-block .right .info-block .img-ctn {
+    margin: 0.75rem 0 0.25rem;
+    width: 6rem;
+  }
+  #home .first-block .right .info-block .h2 {
+    color: var(--clr-primary);
+    font-size: clamp(1rem, 0.3846rem + 0.9615vw, 1.25rem);
+    margin-bottom: 0.5rem;
+  }
+  #home .first-block .right .rect {
+    width: 30rem;
+    aspect-ratio: 690/382;
+    margin: 1.5rem 1rem 2rem;
+    padding: 2rem 2rem 3rem;
+  }
+  #home .first-block .right .rect p {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 1rem 0 2rem;
+  }
+}/*# sourceMappingURL=home.css.map */

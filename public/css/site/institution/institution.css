@@ -1,0 +1,80 @@
+#institute .first-block {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#institute .first-block .left {
+  padding: 1rem 0;
+}
+#institute .first-block .left .panel-view {
+  width: 16rem;
+}
+#institute .first-block .right {
+  padding: 2rem 0;
+}
+#institute .first-block .right .bottom-block {
+  padding: 2rem 0 1rem;
+}
+#institute .first-block .right .bottom-block p {
+  margin: 2rem 0;
+  font-weight: 300;
+  font-size: var(--fs-universal);
+  text-align: left;
+}
+#institute .first-block .right .bottom-block .btn-ctn {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+#institute .second-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#institute .second-block > .top-block {
+  margin: 2rem 2rem 0;
+}
+#institute .second-block > .top-block .h1 {
+  font-size: 1.5rem;
+}
+#institute .second-block > .bottom-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0 4rem;
+}
+#institute .third-block {
+  padding: 2rem 1rem 4rem;
+}
+#institute .third-block .institute-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#institute .third-block .institute-block > .top-block {
+  margin: 2rem 0 1rem;
+}
+#institute .third-block .institute-block > .top-block .h1 {
+  font-size: 1.5rem;
+}
+#institute .third-block .institute-block .bottom-block {
+  padding: 0 0 1rem;
+}
+#institute .third-block .institute-block .bottom-block p {
+  margin: 1rem 0;
+  font-weight: 300;
+  font-size: var(--fs-universal);
+  text-align: left;
+}
+#institute .third-block .institute-block .bottom-block .btn-ctn {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+#institute .fourth-block {
+  display: none;
+}
+#institute .fifth-block {
+  display: none;
+}/*# sourceMappingURL=institution.css.map */

@@ -1,0 +1,227 @@
+#admin {
+  padding-top: 3rem;
+}
+#admin .first-block .title-header {
+  margin: 2rem 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+#admin .first-block .title-header .h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 0.5rem 2rem;
+  border-left: 3px solid var(--clr-primary);
+  color: #3B0D02;
+}
+#admin .second-block .left-block .header-text {
+  color: var(--clr-primary);
+  font-size: 2rem;
+  margin: 0 clamp(0rem, -0.9091rem + 4.5455vw, 2rem) 2rem;
+  padding: 0 2rem;
+  font-weight: 700;
+}
+#admin .second-block .right-block {
+  padding: 4rem 1rem;
+}
+#admin .second-block .right-block .history-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#admin .second-block .right-block .history-block .top-block .h1 {
+  font-size: 1.125rem;
+}
+#admin .second-block .right-block .history-block .bottom-block {
+  display: flex;
+  flex-direction: column;
+  width: clamp(16rem, 6.1538rem + 15.3846vw, 20rem);
+}
+#admin .second-block .right-block .history-block .bottom-block p {
+  font-size: var(--fs-universal);
+  margin: 1rem 0;
+  text-align: left;
+  font-weight: 300;
+}
+#admin .second-block .right-block .history-block .bottom-block .btn-ctn {
+  align-self: center;
+  margin: 3rem 0;
+}
+#admin .third-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+#admin .third-block .double-pill {
+  margin: 2rem -4rem 4rem;
+}
+#admin .third-block .information-block {
+  display: flex;
+  flex-direction: column;
+}
+#admin .third-block .information-block .top-block .h1 {
+  font-size: 1.125rem;
+}
+#admin .third-block .information-block .text-block {
+  display: flex;
+  flex-direction: column;
+  width: clamp(16rem, 6.1538rem + 15.3846vw, 20rem);
+}
+#admin .third-block .information-block .text-block p {
+  font-size: var(--fs-universal);
+  margin: 1rem 0;
+  text-align: left;
+  font-weight: 300;
+}
+#admin .third-block .information-block .text-block .btn-ctn {
+  align-self: flex-start;
+  margin: 3rem 0;
+}
+#admin .fourth-block {
+  padding-top: 2rem;
+}
+#admin .fourth-block .bottom.grid-view {
+  padding: 3rem 2rem;
+}
+#admin .fourth-block .bottom.grid-view .carousel-viewport {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3rem;
+  /* place-items: stretch; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+}
+#admin .fifth-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 0 6rem;
+}
+#admin .fifth-block .uniform-block {
+  width: clamp(17.5rem, 15.2273rem + 11.3636vw, 22.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem clamp(0rem, -1.3636rem + 6.8182vw, 3rem);
+}
+#admin .fifth-block .uniform-block .top-block {
+  margin: 1rem 0 0;
+}
+#admin .fifth-block .uniform-block .top-block .h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#admin .fifth-block .uniform-block .bottom-block p {
+  font-size: var(--fs-universal);
+  margin: 1rem 0;
+  text-align: left;
+  font-weight: 300;
+}
+#admin .fifth-block .uniform-block .btn-ctn {
+  display: flex;
+  flex-direction: column;
+}
+#admin .fifth-block .uniform-block .btn-ctn a {
+  margin: 0.5rem;
+}
+#admin .fifth-block .uniform-block .stroke-btn:hover {
+  color: #fff;
+}
+#admin .fifth-block .info-pill-ctn .quote-block-ctn {
+  margin: 0 0 4rem;
+}
+#admin .fifth-block .info-pill-ctn .info-pill {
+  border-radius: 2rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.125);
+  background-color: #fff;
+}
+#admin .fifth-block .info-pill-ctn .info-pill .left {
+  display: grid;
+  place-items: center;
+  margin: 2.5rem 0;
+}
+#admin .fifth-block .info-pill-ctn .info-pill .left h2 {
+  color: #000;
+}
+#admin .fifth-block .info-pill-ctn .info-pill .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+#admin .fifth-block .info-pill-ctn .info-pill .right .btn {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  #admin .fifth-block {
+    justify-content: space-between;
+    padding: 4rem clamp(2rem, -7.8462rem + 15.3846vw, 6rem);
+  }
+  #admin .fifth-block .uniform-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    width: clamp(22.5rem, 4.0385rem + 28.8462vw, 30rem);
+  }
+  #admin .fifth-block .uniform-block .top-block {
+    margin: 1rem 0;
+  }
+  #admin .fifth-block .uniform-block .top-block .h1 {
+    font-size: clamp(1.25rem, 0.6346rem + 0.9615vw, 1.5rem);
+    font-weight: 700;
+  }
+  #admin .fifth-block .uniform-block .bottom-block {
+    width: clamp(17.5rem, 15.2273rem + 11.3636vw, 22.5rem);
+    align-self: start;
+  }
+  #admin .fifth-block .uniform-block .bottom-block p {
+    margin: 2rem 0;
+    font-weight: 300;
+    font-size: var(--fs-universal);
+    text-align: left;
+  }
+  #admin .fifth-block .uniform-block .btn-ctn {
+    margin: 2rem 0;
+    align-self: flex-end;
+  }
+  #admin .fifth-block .info-pill-ctn .quote-block-ctn {
+    margin: 4rem 0;
+  }
+  #admin .fifth-block .info-pill-ctn .info-pill {
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    aspect-ratio: 750/450;
+    width: clamp(25rem, 12.6923rem + 19.2308vw, 30rem);
+  }
+  #admin .fifth-block .info-pill-ctn .info-pill .left {
+    margin-bottom: 1rem;
+  }
+  #admin .fifth-block .info-pill-ctn .info-pill .left h2 {
+    font-family: "Sharon - Personal Use", sans-serif;
+    font-size: 2rem;
+  }
+  #admin .fifth-block .info-pill-ctn .info-pill .left h2 .fc-primary {
+    font-family: "Sharon - Personal Use", sans-serif;
+    color: #000 !important;
+    font-weight: 400;
+  }
+  #admin .fifth-block .info-pill-ctn .info-pill .right {
+    margin: 0 0;
+  }
+  #admin .fifth-block .info-pill-ctn .info-pill .right .btn {
+    margin: 0.25rem 0;
+    color: var(--clr-primary);
+    border: 1px solid var(--clr-primary);
+  }
+  #admin .fifth-block .info-pill-ctn .info-pill .right .btn:hover {
+    color: #fff;
+  }
+}/*# sourceMappingURL=admin.css.map */
